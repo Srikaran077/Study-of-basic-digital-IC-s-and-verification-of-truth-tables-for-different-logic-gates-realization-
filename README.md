@@ -1,14 +1,15 @@
 NAME:M.SRIKARAN
 REFENCE NUMBER:23010618
 
-##Experiment-01 Study of basic digital IC s and verification of truth tables for different logic gates realization.
-##AIM:
+## Experiment-01 Study of basic digital IC s and verification of truth tables for different logic gates realization.
+## AIM:
+
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
 ##Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher Software – Quartus prime
 
-##Theory
+## Theory
 Introduction Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
 AND gate OR gate NOT gate NAND gate NOR gate Ex-OR gate Ex-NOR gate
@@ -36,7 +37,7 @@ Y= A⊕B
 
 Procedure Connect the supply (+5V) to the circuit Switch ON the main switch Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed. If the output is 1, then the bulb glows. Check all the gates following the same procedure.
 
-##Program:
+## Program:
 module Logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
 output y1,y2,y3,y4,y5,y6,y7;
@@ -48,10 +49,10 @@ nand(y5,a,b);
 nor(y6,a,b);
 xnor(y7,a,b);
 
-##Truthtable
+## Truthtable
 ![DIGITAL](https://github.com/Srikaran077/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151993143/684dfe3f-ec44-44e2-ae63-c8f12ee1dc23)
 
-##RTL realization
+## RTL realization
 ![Screenshot 2023-12-18 154112](https://github.com/Srikaran077/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151993143/3797b783-a4d2-4b63-95ae-07b4a8416183)
 
 ![Screenshot 2023-12-18 154300](https://github.com/Srikaran077/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/151993143/9d833b07-e467-4895-93cc-6d84a0c549f7)
