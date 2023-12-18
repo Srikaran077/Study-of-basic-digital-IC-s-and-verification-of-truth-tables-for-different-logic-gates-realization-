@@ -1,4 +1,4 @@
-NAME:M.SRIKARAN
+NAME:M.SRIKARAN<br>
 REFENCE NUMBER:23010618
 
 ## Experiment-01 Study of basic digital IC s and verification of truth tables for different logic gates realization.
